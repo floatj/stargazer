@@ -2,13 +2,8 @@ const { PlurkClient } = require('plurk2');
 const req = require('request');
 const utf8 = require('utf8');
 
-
+//@TODO: need to fix
 const client = new PlurkClient(
-'1qcCYl4MoPsv',
-'kgYUKm2f8pRKTyzEvswjWdFQENlXIB8E',
-
-'pMe201Z3IT5O',
-'jool0jxdW5JpbhvjMWLR1gBw5wafjSW3'
 );
 
 /*
