@@ -39,7 +39,7 @@ let processFetchResult = function (body) {
     //console.log(body);
 
     //debug
-    fs.writeFileSync('./fetch_result.log', body);
+    fs.writeFileSync('./logs/fetch_result.log', body);
 
     //load cheerio
     const $ = cheerio.load(body);
